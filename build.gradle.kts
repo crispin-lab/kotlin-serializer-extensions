@@ -1,7 +1,7 @@
 import org.jmailen.gradle.kotlinter.tasks.InstallPreCommitHookTask
 import org.jmailen.gradle.kotlinter.tasks.InstallPrePushHookTask
 
-val libraryVersion = "0.0.2"
+val libraryVersion = "0.0.1"
 
 plugins {
     kotlin("jvm") version "2.1.0"
