@@ -2,6 +2,7 @@ val libraryVersion = "0.0.2"
 
 plugins {
     kotlin("jvm") version "2.1.0"
+    kotlin("plugin.serialization") version "2.1.0"
     id("org.jmailen.kotlinter") version "5.0.1"
     id("jacoco")
     id("com.vanniktech.maven.publish") version "0.30.0"
@@ -15,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.27.3")
 }
